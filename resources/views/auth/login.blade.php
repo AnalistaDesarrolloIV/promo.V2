@@ -51,9 +51,11 @@
                             <div class="row">
                                 <div class="col">
                                     @error('email')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
+                                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                      
                                     @enderror
                                 </div>
                             </div>
@@ -63,6 +65,7 @@
                                     <div class="mb-3">
                                         <label for="email" class="form-label">Correo</label>
                                         <input type="email" class="form-control form-control-lg @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="name@example.com">
+                                    
                                     </div>
                                 </div>
                                 <div class="col-12">
