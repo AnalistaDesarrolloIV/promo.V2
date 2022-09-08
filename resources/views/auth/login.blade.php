@@ -80,7 +80,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="row">
+                            <div class="row">
                                 <div class="col">
                                     @if (Route::has('password.request'))
                                         <a class="btn btn-link" href="{{ route('password.request') }}">
@@ -89,7 +89,7 @@
                                         </a>
                                     @endif
                                 </div>
-                            </div> -->
+                            </div>
                             <div class="row mb-3">
                                 <div class="col">
                                     <h5>No tengo cuenta <a class="btn btn-link" href="{{ route('register') }}"> Registrar</a></h5>

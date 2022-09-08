@@ -107,7 +107,7 @@
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label for="password-confirm" class="form-label">Confirmar contraseña</label>
-                                        <input type="email" class="form-control form-control-lg " id="password-confirm"  name="password_confirmation" autocomplete="new-password">
+                                        <input type="password" class="form-control form-control-lg " id="password-confirm"  name="password_confirmation" autocomplete="new-password">
                                         
                                     </div>
                                 </div>
